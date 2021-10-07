@@ -1,0 +1,42 @@
+/* eslint-disable no-unused-vars */
+import React, { Component } from 'react';
+/* import "./estilo.css";*/
+import {StyledButton} from '../styled/blocos';
+import styled from 'styled-components';
+import { corPrimariaTexto } from '../styled/variaveis';
+import { StyledBloco, StyledBoxButton } from '../styled/blocos';
+
+
+
+class Bloco extends Component {
+
+  minhaFuncao(){
+    this.setState = {
+      contador:  this.state.contador + 1
+    }
+  }
+  constructor(props){
+    super(props);
+
+    this.state = {
+      contador: 0,
+    }
+  }
+    render() {
+      const buttonColor = {
+        backgroundColor: this.props.color,
+      };
+      return (
+        <StyledBloco>
+            <h3>{this.props.nome} sua pontuação atual é:</h3>
+            <h1>{this.state.contador}</h1>
+            <StyledBoxButton>
+              <StyledButton onClick={() => this.setState({ contador: this.state.contador + 1})} style={buttonColor} > + </StyledButton>
+              <StyledButton onClick={() => this.setState({ contador: this.state.contador - 1})} style={buttonColor} > - </StyledButton>
+            </StyledBoxButton>
+        </StyledBloco>
+      );
+    }
+  }
+  
+  export default Bloco;

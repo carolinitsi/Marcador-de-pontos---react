@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.box-blocos{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

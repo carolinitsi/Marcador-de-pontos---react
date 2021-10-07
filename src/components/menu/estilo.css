@@ -1,0 +1,14 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(230 225 234);
+}
+.menu-item{
+    list-style: none;
+    margin: 5%;
+    color: rgb(143, 114, 250);
+}
+.menu-item:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
