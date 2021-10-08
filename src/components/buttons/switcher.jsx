@@ -2,7 +2,7 @@
 import React from "react";
 import ThemeClaro from "../../assets/img/icon-sol.png";
 import ThemeEscuro from "../../assets/img/icon-lua.png";
-import {Icone} from '../styled/icons';
+import {Icone} from '../../assets/styled/icons';
 
 
 const claro = <Icone src={ThemeClaro} alt="Tema Claro"/>;

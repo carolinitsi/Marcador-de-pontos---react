@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const estiloBtn = styled.button`
+export const EstiloBtn = styled.button`
   position: absolute;
   right: 0;
 `;
