@@ -48,7 +48,7 @@ function Formulario( ){
                 <StyledBoxBlocos>
                     {jogadores.map(({id,nome})=>{
                         return(
-                            <Bloco key={id} color="#f75e5e" nome={nome}/>
+                            <Bloco key={id} color="rgb(89 214 189)" nome={nome}/>
                         )
                         
                     } )}

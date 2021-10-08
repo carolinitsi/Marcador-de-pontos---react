@@ -6,6 +6,7 @@ export const Icone = styled.img`
   width: 25px;
   position:absolute;
   right:50px;
-  background:transparent;
+  background:${({ theme }) => theme.cabecalho};
+  ;
   cursor:pointer;
 `;

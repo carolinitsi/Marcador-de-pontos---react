@@ -16,6 +16,7 @@ export const StyledBoxBlocos = styled.div`
  export const StyledBloco = styled.div`
     background-color: ${({ theme }) => theme.box};
     border-radius: 5px;
+    box-shadow: 5px 10px 8px ${({ theme }) => theme.cabecalho};;
     color: ${({ theme }) => theme.text};
     display: flex;
     flex-direction: column;
@@ -35,6 +36,10 @@ export const StyledBoxButton = styled.div`
     width:100%;
 `;
 export const StyledButton = styled.div`
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
     display: flex;
     flex-direction: rows;
     justify-content: space-between;

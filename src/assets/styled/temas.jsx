@@ -2,10 +2,12 @@ import {
     Cabecalho,
     TextoModoClaro,
     BoxModoClaro,
+    shadow,
     TextoModoEscuro,
     BoxModoEscuro,
     fundoEscuro,
     CabecalhoModoEscuro,
+    shadowModoEscuro,
 } from './variaveis';
 
 export const temaClaro = {
@@ -14,6 +16,7 @@ export const temaClaro = {
     box: BoxModoClaro,
     text: TextoModoClaro,
     filter: "",
+    shadow:shadow,
 }
 export const temaEscuro = {
     cabecalho: CabecalhoModoEscuro,
@@ -21,4 +24,6 @@ export const temaEscuro = {
     box:  BoxModoEscuro,
     text: TextoModoEscuro,
     filter: "",
+    shadow:shadowModoEscuro,
+
 }

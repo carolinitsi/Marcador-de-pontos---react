@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
         padding:0;
         text-decoration:none;
         background-color: ${({ theme }) => theme.body};
+        
 
     }
 `;
